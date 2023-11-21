@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 
 const Login = () => {
   const { data, status } = useSession();
-  // console.log(data, status);
+  console.log(data, status);
 
   const router = useRouter();
 
@@ -18,14 +18,15 @@ const Login = () => {
   if (status === "authenticated") {
     router.push("/");
   }
+
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.socialbutton} onClick={() => signIn("google")}>
           Sign in with Google
         </div>
-        <div className={styles.socialbutton}>Sign in with Github</div>
-        <div className={styles.socialbutton}>Sign in with Facebook</div>
+        {/* <div className={styles.socialbutton}>Sign in with Github</div>
+        <div className={styles.socialbutton}>Sign in with Facebook</div> */}
       </div>
     </div>
   );

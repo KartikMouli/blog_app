@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import styles from "./writepage.module.css";
 import Image from "next/image";
 import ReactQuill from "react-quill";
-import "react-quill/dist/quill.bubble.css";
+// import "react-quill/dist/quill.bubble.css";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
