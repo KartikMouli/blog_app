@@ -17,6 +17,7 @@ export const ThemeContextProvider = ({ children }) => {
   });
 
   const Toggle = () => {
+    // console.log("hello bc")
     setTheme(theme === "light" ? "dark" : "light");
   };
 
