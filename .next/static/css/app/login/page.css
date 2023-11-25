@@ -1,0 +1,59 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/login/login.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.login_container__kitvQ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.login_wrapper__PEQDr {
+  background-color: var(--softBg);
+  padding: 150px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 10px;
+}
+
+.login_socialbutton__U0Rvp {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_socialbutton__U0Rvp:first-child {
+  background-color: #ff5555;
+}
+
+.login_socialbutton__U0Rvp:nth-child(2) {
+  background-color: #111;
+}
+
+.login_socialbutton__U0Rvp:nth-child(3) {
+  background-color: #087bea;
+}
+
+@media screen and (max-width: 768px) {
+  .login_wrapper__PEQDr {
+    padding: 50px 100px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .login_wrapper__PEQDr {
+    padding: 30px;
+  }
+
+  .login_socialButton__oGiRN {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+

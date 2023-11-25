@@ -1,0 +1,317 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/[slug]/singlepage.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.singlepage_container__8_8ZZ {
+}
+
+.singlepage_infoContainer__HJi_9 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.singlepage_textContainer__tXWU7 {
+  flex: 1 1;
+}
+
+.singlepage_title__2aVBU {
+  font-size: 64px;
+  margin-bottom: 50px;
+}
+
+.singlepage_user__vP6Y1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.singlepage_username___RdD_ {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.singlepage_avatar__vfmz2 {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.singlepage_userTextContainer__grr8E {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--softTextColor);
+}
+
+.singlepage_userImageContainer__SmAC6 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.singlepage_imageContainer__mAL_Z {
+  flex: 1 1;
+  height: 350px;
+  position: relative;
+}
+
+.singlepage_image__6yQ3g {
+  object-fit: cover;
+}
+
+.singlepage_content__8DZL0 {
+  display: flex;
+  gap: 50px;
+}
+
+.singlepage_post__5cqZ7 {
+  flex: 5 1;
+  margin-top: 60px;
+}
+
+.singlepage_desc__neEE0 p {
+  font: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1530px) {
+  .singlepage_title__2aVBU {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .singlepage_title__2aVBU {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .singlepage_imageContainer__mAL_Z {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .singlepage_title__2aVBU {
+    font-size: 36px;
+  }
+
+  .singlepage_desc__neEE0 p{
+    font-size: 18px;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/Menu/menu.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.menu_container__Bdkik {
+  flex: 2 1;
+  margin-top: 60px;
+}
+
+.menu_subtitle__1sLrf {
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu_title__o3gqK {
+  font-size: 28px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .menu_container__Bdkik {
+    display: none;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/menuPosts/menuposts.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.menuposts_items__hI8vD {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.menuposts_item__wEkUU {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menuposts_imageContainer__QKS7x {
+  flex: 1 1;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+
+.menuposts_image__DYeww {
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+  object-fit: cover;
+}
+
+.menuposts_textContainer__e68uL {
+  flex: 4 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.menuposts_category__N8amH {
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: white;
+  width: max-content;
+}
+
+.menuposts_postTitle__Sij7E {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--softTextColor);
+}
+
+.menuposts_detail__j6j5_ {
+  font-size: 12px;
+}
+
+.menuposts_date__imhtS {
+  color: grey;
+}
+
+.menuposts_category__N8amH.menuposts_travel__fsWEn {
+  background-color: #ff7857;
+}
+
+.menuposts_coding__JpB1y {
+  background-color: #ffb14f;
+}
+
+.menuposts_culture__m5GMW {
+  background-color: #7fb881;
+}
+
+.menuposts_fashion__eTHon {
+  background-color: #ff7887;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/menuCategories/menucategories.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+.menucategories_categoryList__3SjLS {
+    margin-top: 35px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .menucategories_categoryItem__9ebiI {
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_style__gVp1F {
+    background-color: #57c4ff31;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_fashion__zWFtO {
+    background-color: #da85c731;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_food__s4FWw {
+    background-color: #7fb88133;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_travel__jXf1k {
+    background-color: #ff795736;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_culture__r_U1_ {
+    background-color: #ffb04f45;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_coding__ipk9_ {
+    background-color: #5e4fff31;
+  }
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/comments/comments.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.comments_container__IfCkM {
+  margin-top: 50px;
+}
+
+.comments_title__hA78L {
+  color: var(--softTextColor);
+  margin-bottom: 30px;
+}
+
+.comments_write__kvwLu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.comments_input__Se1EO {
+  padding: 20px;
+  width: 100%;
+}
+
+.comments_button__UI_FY {
+  padding: 16px 20px;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comments_comments__IXrJs {
+  margin-top: 50px;
+}
+
+.comments_comment__RQWq2 {
+  margin-bottom: 50px;
+}
+
+.comments_user__lB_zA {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.comments_image__7pF6r {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comments_userInfo__iGY1C {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--softTextColor);
+}
+
+.comments_username__6WThV {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.comments_date__UqsFQ {
+  font-size: 13px;
+}
+
+.comments_desc__WwZHJ {
+  font-size: 17px;
+  font-weight: 300;
+}
+

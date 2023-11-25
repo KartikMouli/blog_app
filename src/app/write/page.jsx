@@ -1,12 +1,17 @@
 "use client";
 
-import React, { useState } from "react";
+
 import styles from "./writepage.module.css";
 import Image from "next/image";
-import ReactQuill from "react-quill";
-// import "react-quill/dist/quill.bubble.css";
+
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
+
+import React, { useState } from 'react';
+import ReactQuill from 'react-quill';
+// import 'react-quill/dist/quill.snow.css';
+import 'node_modules/react-quill/dist/quill.bubble.css'
+
 
 const Writepage = () => {
   const [open, setOpen] = useState(false);

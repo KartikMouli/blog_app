@@ -1,0 +1,385 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/homepage.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.homepage_content__m6Qf_{
+    display:flex ;
+    gap: 50px;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/featured/featured.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.featured_container__3_exq {
+  margin-top: 30px;
+}
+
+.featured_title__LvLxH {
+  font-size: 96px;
+  font-weight: 300;
+}
+
+.featured_post__IGw_0 {
+  margin-top: 60px;
+  display: flex;
+  align-items: centre;
+  gap: 50px;
+}
+
+.featured_imgContainer__LAkPF {
+  flex: 1 1;
+  height: 500px;
+  position: relative;
+}
+
+.featured_textContainer__0y_Y_ {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.featured_image__ILA1H {
+  object-fit: cover;
+}
+
+.featured_postTitle__lFqWg {
+  font-size: 40px;
+}
+
+.featured_postDesc__spISc {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--softTextColor);
+}
+
+.featured_button__gm82N {
+  padding: 16px 20px;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+}
+
+@media screen and (max-width: 1280px) {
+  .featured_title__LvLxH {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .featured_title__LvLxH {
+    font-size: 64px;
+  }
+
+  .featured_imgContainer__LAkPF {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .featured_title__LvLxH {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .featured_title__LvLxH {
+    font-size: 36px;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/CategoryList/categorylist.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.categorylist_container__vyelS {
+}
+
+.categorylist_title__t0XYw {
+  margin: 50px 0px;
+}
+
+.categorylist_categories__1DH0a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.categorylist_category__vImb8 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  width: 15%;
+  height: 80px;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.categorylist_category__vImb8.categorylist_style__udV84 {
+  background-color: #57c4ff31;
+}
+
+.categorylist_category__vImb8.categorylist_fashion__YBxuo {
+  background-color: #da85c731;
+}
+
+.categorylist_category__vImb8.categorylist_food__TQBSm {
+  background-color: #7fb88133;
+}
+
+.categorylist_category__vImb8.categorylist_travel__lHMeD {
+  background-color: #ff795736;
+}
+
+.categorylist_category__vImb8.categorylist_culture__jI9s1 {
+  background-color: #ffb04f45;
+}
+
+.categorylist_category__vImb8.categorylist_coding__arhj1 {
+  background-color: #5e4fff31;
+}
+
+.categorylist_image__DKVwm {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+  .categorylist_category__vImb8 {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .categorylist_category__vImb8 {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .categorylist_category__vImb8 {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .categorylist_category__vImb8 {
+    width: 100%;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/CardList/cardlist.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.cardlist_container__M8er0 {
+  flex: 5 1;
+}
+
+.cardlist_title__qZ5df {
+  margin: 50px 0px;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/pagination/pagination.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+.pagination_container__otCNx {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination_button__uxftp {
+  width: 100px;
+  border: none;
+  padding: 16px;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/card/card.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.card_container__jV8rV {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.card_imageContainer__kovEV {
+  flex: 1 1;
+  height: 350px;
+  position: relative;
+}
+
+.card_image___2VKx {
+  object-fit: cover;
+}
+
+.card_textContainer__EpxTs {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card_date__87sj6 {
+  color: gray;
+}
+
+.card_category__bKBa8 {
+  color: crimson;
+  font-weight: 500;
+}
+
+.card_desc__cfhrY {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--softTextColor);
+}
+
+.card_link__DJ1Br {
+  border-bottom: 1px solid crimson;
+  width: max-content;
+  padding: 2px 0px;
+}
+
+@media screen and (max-width: 1280px) {
+  .card_imageContainer__kovEV {
+    display: none;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/Menu/menu.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.menu_container__Bdkik {
+  flex: 2 1;
+  margin-top: 60px;
+}
+
+.menu_subtitle__1sLrf {
+  color: gray;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu_title__o3gqK {
+  font-size: 28px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .menu_container__Bdkik {
+    display: none;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/menuPosts/menuposts.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.menuposts_items__hI8vD {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.menuposts_item__wEkUU {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menuposts_imageContainer__QKS7x {
+  flex: 1 1;
+  aspect-ratio: 1/1;
+  position: relative;
+}
+
+.menuposts_image__DYeww {
+  border-radius: 50%;
+  border: 3px solid lightgrey;
+  object-fit: cover;
+}
+
+.menuposts_textContainer__e68uL {
+  flex: 4 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.menuposts_category__N8amH {
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: white;
+  width: max-content;
+}
+
+.menuposts_postTitle__Sij7E {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--softTextColor);
+}
+
+.menuposts_detail__j6j5_ {
+  font-size: 12px;
+}
+
+.menuposts_date__imhtS {
+  color: grey;
+}
+
+.menuposts_category__N8amH.menuposts_travel__fsWEn {
+  background-color: #ff7857;
+}
+
+.menuposts_coding__JpB1y {
+  background-color: #ffb14f;
+}
+
+.menuposts_culture__m5GMW {
+  background-color: #7fb881;
+}
+
+.menuposts_fashion__eTHon {
+  background-color: #ff7887;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/app/components/menuCategories/menucategories.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+.menucategories_categoryList__3SjLS {
+    margin-top: 35px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .menucategories_categoryItem__9ebiI {
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_style__gVp1F {
+    background-color: #57c4ff31;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_fashion__zWFtO {
+    background-color: #da85c731;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_food__s4FWw {
+    background-color: #7fb88133;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_travel__jXf1k {
+    background-color: #ff795736;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_culture__r_U1_ {
+    background-color: #ffb04f45;
+  }
+  
+  .menucategories_categoryItem__9ebiI.menucategories_coding__ipk9_ {
+    background-color: #5e4fff31;
+  }
